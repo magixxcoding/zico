@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#e8dfd1"/><stop offset="1" stop-color="#d7c4ac"/></linearGradient></defs>
+  <rect width="900" height="500" fill="url(#bg)"/>
+  <g fill="none" stroke="#725d48" stroke-width="2">
+    <path d="M214 250h472M450 93v314M292 142l316 216M608 142 292 358"/>
+    <path d="M292 142h316v216H292z" stroke-opacity=".3"/>
+  </g>
+  <g fill="#f7f7f2" stroke="#725d48" stroke-width="2">
+    <circle cx="214" cy="250" r="13"/><circle cx="686" cy="250" r="13"/><circle cx="450" cy="93" r="13"/><circle cx="450" cy="407" r="13"/>
+    <circle cx="292" cy="142" r="10"/><circle cx="608" cy="142" r="10"/><circle cx="292" cy="358" r="10"/><circle cx="608" cy="358" r="10"/>
+  </g>
+  <circle cx="450" cy="250" r="58" fill="#725d48"/>
+  <path d="M423 250h54M450 223v54" stroke="#f7f7f2" stroke-linecap="round" stroke-width="2"/>
+  <text x="450" y="262" fill="#f7f7f2" font-family="Arial,sans-serif" font-size="14" letter-spacing="3" text-anchor="middle">AI × WEB3</text>
+  <text x="56" y="72" fill="#725d48" font-family="monospace" font-size="12" letter-spacing="3">USEFUL CONNECTIONS</text>
+  <text x="844" y="438" fill="#725d48" font-family="monospace" font-size="11" text-anchor="end">IDEAS / 002</text>
+</svg>

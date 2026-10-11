@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Get in touch with Zico by M2HB to share a question, idea, or correction.">
+  <meta name="theme-color" content="#f7f7f2">
+  <title>Contact — Zico by M2HB</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/blog-engine.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Zico by M2HB home"><img src="assets/images/logo.svg" alt="" width="36" height="36"><span>Zico <span class="brand-by">by M2HB</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Journal</a><a class="nav-link" href="about.html">About</a><a class="nav-link active" href="contact.html" aria-current="page">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme"><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg></button>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-intro contact-intro container">
+      <p class="eyebrow"><span class="eyebrow-line"></span> The conversation starts here</p>
+      <h1>Say <span class="serif-accent">hello.</span></h1>
+      <p class="page-lede">Have a question, an idea for a story, or just want to talk shop? My inbox is open.</p>
+    </section>
+    <section class="contact-section container">
+      <div class="contact-aside">
+        <span class="aside-number">01 / 01</span>
+        <h2>Good things<br>start with a<br><span class="serif-accent">note.</span></h2>
+        <p>Fill in the form and your email app will open with your message ready to send. Nothing is stored on this site.</p>
+        <div class="contact-detail"><span class="detail-dot"></span><span>Usually replies within a few days</span></div>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" autocomplete="name" placeholder="How should I address you?" required>
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+        <label for="subject">What’s this about?</label>
+        <select id="subject" name="subject" required>
+          <option value="" disabled selected>Choose a topic</option>
+          <option>Story idea</option>
+          <option>A question</option>
+          <option>Just saying hello</option>
+          <option>Something else</option>
+        </select>
+        <label for="message">Your message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write a little note…" required></textarea>
+        <button class="button button-dark form-submit" type="submit">Open email to send <span aria-hidden="true">↗</span></button>
+        <p class="form-note" id="form-note" role="status" aria-live="polite">Your message will be prepared in your email app. This site does not send or save it.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="index.html"><img src="assets/images/logo.svg" alt="" width="30" height="30"><span>Zico <span class="brand-by">by M2HB</span></span></a><p>Made for the curious. © <span data-current-year>2026</span></p><a class="footer-top" href="#main">Back to top ↑</a></div></footer>
+</body>
+</html>

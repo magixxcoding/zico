@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A grounded look at useful overlaps between blockchain and AI apps, along with their trade-offs.">
+  <meta name="theme-color" content="#f7f7f2">
+  <title>Where blockchain and AI apps actually meet — Zico by M2HB</title>
+  <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/global.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/pages.css">
+  <link rel="stylesheet" href="../assets/css/post.css">
+  <script src="../assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="../index.html" aria-label="Zico by M2HB home"><img src="../assets/images/logo.svg" alt="" width="36" height="36"><span>Zico <span class="brand-by">by M2HB</span></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation"><a class="nav-link active" href="../index.html">Journal</a><a class="nav-link" href="../about.html">About</a><a class="nav-link" href="../contact.html">Contact</a><button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme"><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg></button></nav>
+  </div></header>
+  <main class="article-main" id="main">
+    <nav class="article-breadcrumb container" aria-label="Breadcrumb"><a href="../index.html">Journal</a><span aria-hidden="true">/</span><span>Emerging tech</span></nav>
+    <article class="article">
+      <header class="article-header">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Emerging tech</p>
+        <h1>Where blockchain and AI apps <span class="serif-accent">actually meet.</span></h1>
+        <p class="article-deck">Skip the hype. Here are the useful points of overlap, the real trade-offs, and what’s still missing.</p>
+        <div class="article-meta"><span>By M2HB</span><time datetime="2026-10-06">October 6, 2026</time><span>6 min read</span></div>
+      </header>
+      <figure class="article-cover"><img src="../assets/images/ui/chain-cover.svg" alt="A diagram linking a central AI node with surrounding network nodes."><figcaption>Two technologies can complement each other without needing to be combined everywhere.</figcaption></figure>
+      <div class="article-body">
+        <p class="article-lead">Put “blockchain” and “AI” together and the pitch can quickly get louder than the product. But there are practical questions underneath the buzz: how do we establish where data came from, coordinate access to shared resources, or let independent services verify a result?</p>
+        <h2>Different tools, different jobs</h2>
+        <p>AI systems find patterns in data and generate predictions or content. Blockchains maintain a shared, tamper-evident record that multiple participants can inspect without relying on one operator to maintain it. One is good at inference; the other is useful when independent parties need shared state and rules.</p>
+        <p>That difference is also a warning. A blockchain does not make an AI model more accurate, and putting a model behind a token does not make its output trustworthy. Each component needs a reason to exist.</p>
+        <h2>Provenance, not truth</h2>
+        <p>A signed record can show that a particular dataset, model version, or output was registered at a particular time. This kind of provenance can support audits and make changes easier to trace. It cannot prove that the original data was correct or that a model’s conclusion is fair. The record preserves claims; it does not magically validate them.</p>
+        <blockquote>Verifiable history is valuable. It is not the same thing as verified truth.</blockquote>
+        <h2>Coordination and access</h2>
+        <p>Shared infrastructure can help organizations coordinate access to a resource—such as a dataset registry or a marketplace for computing—when no single party should control the rules. Smart contracts can automate narrow, transparent actions like recording a usage permission or settling a payment.</p>
+        <p>There are costs. Public networks can add latency, transaction fees, and permanent data exposure. Large datasets and model weights generally belong off-chain; putting sensitive information on a public ledger is especially risky. Systems must also account for key management, reversibility, and what happens when a participant makes a mistake.</p>
+        <h2>Ask whether the combination earns its keep</h2>
+        <p>Before combining these technologies, describe the trust problem in ordinary language. Who needs to trust whom? What must be shared, and what must remain private? Could a conventional database with clear access controls solve it more cheaply? If there is no meaningful need for independent verification or shared governance, the simpler design is often better.</p>
+        <p>The interesting future is not “AI on a blockchain” as a catch-all. It is careful, specific systems where auditable records or shared rules solve a real coordination problem—and where the limitations are visible to the people relying on them.</p>
+      </div>
+      <div class="article-back"><a class="text-link" href="../index.html">← Back to all stories</a></div>
+    </article>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="../index.html"><img src="../assets/images/logo.svg" alt="" width="30" height="30"><span>Zico <span class="brand-by">by M2HB</span></span></a><p>Made for the curious. © <span data-current-year>2026</span></p><a class="footer-top" href="#main">Back to top ↑</a></div></footer>
+</body>
+</html>

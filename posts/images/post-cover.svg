@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <defs><linearGradient id="paper" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#e9eee5"/><stop offset="1" stop-color="#c9d7c4"/></linearGradient></defs>
+  <rect width="900" height="500" fill="url(#paper)"/>
+  <circle cx="450" cy="250" r="164" fill="none" stroke="#557457" stroke-opacity=".22"/>
+  <circle cx="450" cy="250" r="112" fill="none" stroke="#557457" stroke-opacity=".42" stroke-dasharray="3 9"/>
+  <path d="M450 171 521 291H379z" fill="#557457"/>
+  <circle cx="450" cy="250" r="20" fill="#e9eee5"/>
+  <circle cx="450" cy="86" r="8" fill="#557457"/>
+  <circle cx="592" cy="332" r="8" fill="#a67852"/>
+  <circle cx="308" cy="332" r="8" fill="#557457"/>
+  <text x="450" y="257" fill="#557457" font-family="monospace" font-size="12" letter-spacing="3" text-anchor="middle">FIELDNOTE</text>
+  <text x="56" y="72" fill="#557457" font-family="monospace" font-size="12" letter-spacing="3">A SPACE FOR IDEAS</text>
+  <text x="844" y="438" fill="#557457" font-family="monospace" font-size="11" text-anchor="end">STORY / 000</text>
+</svg>
